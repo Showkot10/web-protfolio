@@ -14,12 +14,12 @@ section{
     padding-bottom: 150px;
 }
 .half-width{
-    width:44%;
-    height: 100%;
-    float:left;
-    margin-left:4%;
-    padding-left:2%;
+    width:40%;
    
+    float:left;
+    margin-left:3%;
+    padding-left:2%;
+   margin-right: 3%;
 
 }
 .half-width img{
@@ -30,8 +30,23 @@ section{
 .link-button{
     text-decoration: none;
     padding:5px 17px;
-    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    background-image: linear-gradient(45deg, rgb(66, 45, 36), tomato);
     color:white;
     border-radius:5px;
     font-weight: 700;
+}
+.same-div{
+    box-shadow: 15px 15px 40px grey;
+    height: 70%;
+    border-radius: 5px;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,tomato,lightsalmon);
+    border-image-slice: 1;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
 }
